@@ -1,8 +1,8 @@
-package Methods;
+package methods;
 
 import java.util.Scanner;
 
-public class SquaresOfNNaturalNumbers {
+public class squaresOfNNaturalNumbers {
     static void squares(int n) {
         System.out.println("Square of Natural Numbers up to " + n);
         for (int i = 1; i <= n; i++) {

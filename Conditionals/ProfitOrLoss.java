@@ -1,8 +1,8 @@
-package Conditionals;
+package conditionals;
 
 import java.util.Scanner;
 
-public class ProfitOrLoss {
+public class profitOrLoss {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Cost Price : ");

@@ -1,8 +1,8 @@
-package Methods;
+package methods;
 
 import java.util.Scanner;
 
-public class OddNumbersBetweenTwoNumbers {
+public class oddNumbersBetweenTwoNumbers {
     static void oddNumbers(int s, int e) {
         System.out.println("Odd Numbers Between " + s + " and " + e + " is : ");
         for (int i = s + 1; i <= e - 1; i++) {

@@ -1,8 +1,8 @@
-package Conditionals;
+package conditionals;
 
 import java.util.Scanner;
 
-public class GreatestOfThree {
+public class greatestOfThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter 1st Number : ");

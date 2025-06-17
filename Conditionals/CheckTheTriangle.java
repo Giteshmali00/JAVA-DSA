@@ -1,8 +1,8 @@
-package Conditionals;
+package conditionals;
 
 import java.util.Scanner;
 
-public class CheckTheTriangle {
+public class checkTheTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter 1st Side : ");

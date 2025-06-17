@@ -1,8 +1,8 @@
-package Methods;
+package methods;
 
 import java.util.Scanner;
 
-public class SquareOfDigit {
+public class squareOfDigit {
 
     static void squareOfDigit(int n) {
         int temp = n, count = 0;
