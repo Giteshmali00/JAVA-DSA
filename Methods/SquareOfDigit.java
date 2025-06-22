@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class squareOfDigit {
 
-    static void squareOfDigit(int n) {
+    static void squareDigit(int n) {
         int temp = n, count = 0;
         while (temp != 0) {
             temp /= 10;
@@ -19,6 +19,6 @@ public class squareOfDigit {
         System.out.print("Enter the Number : ");
         int n = sc.nextInt();
 
-        squareOfDigit(n);
+        squareDigit(n);
     }
 }
