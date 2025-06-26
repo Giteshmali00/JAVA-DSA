@@ -1,6 +1,6 @@
 package arrays;
 
-public class sortArrayOfBinaryNumbers {
+public class sortArrayOfBinaryNums {
     public static void printArr(int[] arr) {
         for (int ele : arr) {
             System.out.print(ele + " ");
