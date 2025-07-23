@@ -1,7 +1,7 @@
 package JAVA_DSA.two_dimensional_arrays;
 
 public class multiplicationOfMatrix {
-    public static void print2DArray(int[][] arr) {
+    public static void printMatrix(int[][] arr) {
         for (int[] ele : arr) {
             for (int sele : ele) {
                 System.out.print(sele + " ");
@@ -36,7 +36,7 @@ public class multiplicationOfMatrix {
                 }
 
             }
-            print2DArray(ans);
+            printMatrix(ans);
         }
     }
 }
