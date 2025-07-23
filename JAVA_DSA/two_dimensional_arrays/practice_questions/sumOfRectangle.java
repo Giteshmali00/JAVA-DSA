@@ -8,8 +8,7 @@ public class sumOfRectangle {
                 { 1, -1, 2, 3 },
                 { -4, -5, -7, 0 }
         };
-        int m = arr.length, n = arr[0].length;
-        int l1 = 1, r1 = 0, l2 = 0, r2 = 3;
+        int l1 = 2, r1 = 0, l2 = 1, r2 = 3;
 
         int ans = 0;
         for (int i = Math.min(l1, l2); i <= Math.max(l1, l2); i++) {
