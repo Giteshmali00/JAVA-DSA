@@ -19,7 +19,8 @@ public class maxValInString {
         if (a.length() < b.length())
             return s;
 
-        for (int i = 0; i < a.length(); i++) {
+        int i = 0;
+        while (i < a.length()) {
             if (a.charAt(i) > b.charAt(i))
                 return maxS;
             else
