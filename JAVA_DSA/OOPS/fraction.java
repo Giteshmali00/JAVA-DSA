@@ -26,21 +26,14 @@ public class fraction {
         return new Fraction(Numerator, denominator);
     }
 
+    // euclid devision algorith dividant = divisor*quesiont + remainder;
+    // where, 0 <= r < divisor;
+    // max = (min*(max/min)) + max % min; if r==0 then HCF is min(the last divisor);
     public static int gcd(int a, int b) {
-        // euclid devision algorith dividant = divisor*quesiont + remainder;
-        // where, 0 <= r < divisor;
-        // max = (min*(max/min)) + max % min; if r==0 then HCF is min(the last divisor);
-        if (a < 0)
-            a *= -1;
-        if (b < 0)
-            b *= -1;
-        int min = Math.min(a, b);
-        int max = Math.max(a, b);
-        int r = max % min;
-        if (r == 0)
-            return min;
+        if (a == 0)
+            return b;
         else {
-            return gcd(min, r);
+            return gcd(b % a, a);
         }
     }
 
@@ -55,16 +48,21 @@ public class fraction {
         }
 
         public void simplify() {
+            boolean isNegative = (num * den < 0) ? true : false;
+            num = Math.abs(num);
+            den = Math.abs(den);
             int hcf = gcd(num, den);
             this.num /= hcf;
             this.den /= hcf;
+            if (isNegative)
+                num = -num;
         }
     }
 
     public static void main(String[] args) {
-        Fraction f1 = new Fraction(35, -21);
+        Fraction f1 = new Fraction(3, -7);
         System.out.println("Fraction 1 : " + f1.num + "/" + f1.den);
-        Fraction f2 = new Fraction(-7, -3);
+        Fraction f2 = new Fraction(7, 3);
         System.out.println("Fraction 2 : " + f2.num + "/" + f2.den);
         Fraction f3 = add(f1, f2);
         System.out.println("Addition : " + f3.num + "/" + f3.den);
