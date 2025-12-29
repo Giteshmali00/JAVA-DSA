@@ -27,6 +27,65 @@ class SLL {
         size++;
     }
 
+    void insert(int idx, int val) {
+        Node temp = new Node(val);
+        if (idx == 0) {
+            insertAtHead(val);
+            return;
+        }
+        if (idx == size) {
+            insertAtTail(val);
+            return;
+        }
+        if (idx > size || idx < 0) {
+            System.out.println("Invalid Index!");
+            return;
+        }
+
+        Node x = head;
+
+        for (int i = 1; i <= idx - 1; i++) {
+            x = x.next;
+        }
+        temp.next = x.next;
+        x.next = temp;
+
+        size++;
+    }
+
+    int get(int idx) throws Error {
+        if (idx == size - 1)
+            return tail.val;
+        if (idx >= size) {
+            throw new Error("Invalid Index!");
+        }
+
+        Node temp = head;
+        for (int i = 0; i < idx; i++) {
+            temp = temp.next;
+        }
+
+        return temp.val;
+    }
+
+    void set(int idx, int val) throws Error {
+        if (idx == size - 1) {
+            tail.val = val;
+            return;
+        }
+
+        if (idx >= size) {
+            throw new Error("Invalid Index!");
+        }
+
+        Node temp = head;
+        for (int i = 0; i < idx; i++) {
+            temp = temp.next;
+        }
+
+        temp.val = val;
+    }
+
     void display() {
         Node temp = head;
         while (temp != null) {
@@ -52,6 +111,13 @@ public class implementationLL {
 
         list.insertAtHead(40);
         list.insertAtHead(50);
+        list.display();
+
+        list.insert(5, 78);
+        list.display();
+
+        System.out.println(list.get(3));
+        list.set(2, 200);
         list.display();
 
         System.out.println("Size of the Linked List : " + list.size);
