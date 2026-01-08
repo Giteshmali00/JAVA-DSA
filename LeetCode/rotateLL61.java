@@ -1,28 +1,61 @@
 package LeetCode;
 
 public class rotateLL61 {
-    public static Node rotateRight(Node head, int k) {
+    // Method 2 :- slow & fast pointers.
+    public static Node rotateRight2(Node head, int k) {
         if (head == null || head.next == null)
             return head;
         Node temp = head;
-        int size = 1;
-        while (temp.next != null) {
+        int n = 0;
+        while (temp != null) {
             temp = temp.next;
-            size++;
+            n++;
         }
-        k = k % size;
+        k %= n;
         if (k == 0)
             return head;
 
-        Node rotate = head;
-        for (int i = 1; i < size - k; i++) {
-            rotate = rotate.next;
-        }
-        Node extra = rotate.next;
-        temp.next = head;
-        rotate.next = null;
+        Node slow = head;
+        Node fast = head;
 
-        return extra;
+        for (int i = 0; i < k; i++) {
+            fast = fast.next;
+        }
+
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        Node newHead = slow.next;
+        slow.next = null;
+        fast.next = head;
+
+        return newHead;
+    }
+
+    // Method 1 :- slightly better than method 1.
+    public static Node rotateRight(Node head, int k) {
+        if (head == null || head.next == null)
+            return head;
+        Node tail = head;
+        int n = 1;
+        while (tail.next != null) {
+            tail = tail.next;
+            n++;
+        }
+        k = k % n;
+        if (k == 0)
+            return head;
+        Node newTail = head;
+        for (int i = 1; i < n - k; i++) {
+            newTail = newTail.next;
+        }
+        Node newHead = newTail.next;
+        tail.next = head;
+        newTail.next = null;
+
+        return newHead;
     }
 
     public static void main(String[] args) {
@@ -36,6 +69,9 @@ public class rotateLL61 {
 
         list.display();
         list.head = rotateRight(list.head, 2);
+        list.display();
+
+        list.head = rotateRight2(list.head, 2);
         list.display();
     }
 }
