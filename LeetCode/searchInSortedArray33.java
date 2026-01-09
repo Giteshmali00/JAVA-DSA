@@ -10,16 +10,16 @@ public class searchInSortedArray33 {
             int mid = lo + (hi - lo) / 2;
             if (arr[mid] == target)
                 return mid;
-            else if (arr[mid] <= arr[hi]) {
-                if (target > arr[mid] && target <= arr[hi])
-                    lo = mid + 1;
+            if (arr[mid] <= arr[hi]) {// mid is in right side's sorted part
+                if (arr[mid] <= target && target <= arr[hi])
+                    lo = mid + 1;// target is in mid - hi
                 else
-                    hi = mid - 1;
-            } else {
-                if (target >= arr[lo] && target < arr[mid])
-                    hi = mid - 1;
+                    hi = mid - 1;// target is in lo - mid
+            } else {// mid is in left side's sorted part
+                if (arr[mid] >= target && target >= arr[lo])
+                    hi = mid - 1; // target is in lo - mid
                 else
-                    lo = mid + 1;
+                    lo = mid + 1;// target is in mid - hi
             }
         }
 
