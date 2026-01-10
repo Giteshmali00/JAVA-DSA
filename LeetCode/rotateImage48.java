@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class rotateImage48 {
     public static void printMatrix(int[][] arr) {

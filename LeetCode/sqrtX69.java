@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class sqrtX69 {
     public static int mySqrt(int x) {

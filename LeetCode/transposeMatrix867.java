@@ -1,4 +1,3 @@
-package LeetCode;
 
 class transposeMatrix867 {
     public static int[][] transpose(int[][] matrix) {

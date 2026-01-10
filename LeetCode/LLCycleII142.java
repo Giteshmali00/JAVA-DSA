@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class LLCycleII142 {
     static int ansidx;

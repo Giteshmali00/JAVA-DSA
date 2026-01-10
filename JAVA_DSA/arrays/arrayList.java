@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays;
 
 import java.util.ArrayList;
 

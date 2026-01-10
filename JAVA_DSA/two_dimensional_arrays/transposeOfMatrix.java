@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays;
 
 import java.util.Scanner;
 

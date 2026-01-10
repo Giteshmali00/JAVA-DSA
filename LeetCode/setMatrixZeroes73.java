@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class setMatrixZeroes73 {
     public static void printMatrix(int[][] arr) {

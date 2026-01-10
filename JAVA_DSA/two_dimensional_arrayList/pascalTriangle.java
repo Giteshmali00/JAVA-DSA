@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrayList;
 
 import java.util.ArrayList;
 import java.util.List;

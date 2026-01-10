@@ -1,0 +1,1635 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "checkArrayPalindrome",
+        "request": "launch",
+        "mainClass": "checkArrayPalindrome",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "capacityShipPackage1011",
+        "request": "launch",
+        "mainClass": "capacityShipPackage1011",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "spiralMatrixIV2326",
+        "request": "launch",
+        "mainClass": "LeetCode.spiralMatrixIV2326",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateLL61",
+        "request": "launch",
+        "mainClass": "LeetCode.rotateLL61",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "removeDuplicatesFromSortedLL83",
+        "request": "launch",
+        "mainClass": "LeetCode.removeDuplicatesFromSortedLL83",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "LLCycleII142",
+        "request": "launch",
+        "mainClass": "LeetCode.LLCycleII142",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "LLCycle141",
+        "request": "launch",
+        "mainClass": "LeetCode.LLCycle141",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "intersectionOfTwoLL160",
+        "request": "launch",
+        "mainClass": "LeetCode.intersectionOfTwoLL160",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "swappingNodesInLL1721",
+        "request": "launch",
+        "mainClass": "LeetCode.swappingNodesInLL1721",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "deleteMiddleNodeOfLL2095",
+        "request": "launch",
+        "mainClass": "LeetCode.deleteMiddleNodeOfLL2095",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "removeNthNodeFromEndOfTheList19",
+        "request": "launch",
+        "mainClass": "LeetCode.removeNthNodeFromEndOfTheList19",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "middleOfTheLinkedList876",
+        "request": "launch",
+        "mainClass": "LeetCode.middleOfTheLinkedList876",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "deleteNodeInLL237",
+        "request": "launch",
+        "mainClass": "LeetCode.deleteNodeInLL237",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "reverseNodeInKGroup",
+        "request": "launch",
+        "mainClass": "LeetCode.reverseNodeInKGroup",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "implementationLL3",
+        "request": "launch",
+        "mainClass": "linkedList.implementationLL3",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "implementationLL2",
+        "request": "launch",
+        "mainClass": "linkedList.implementationLL2",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "implementationLL",
+        "request": "launch",
+        "mainClass": "linkedList.implementationLL",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "practice",
+        "request": "launch",
+        "mainClass": "linkedList.practice",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "methodOverloadingWithTypePromotion",
+        "request": "launch",
+        "mainClass": "OOPS.methodOverloadingWithTypePromotion",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "fraction",
+        "request": "launch",
+        "mainClass": "OOPS.fraction",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "studentApp",
+        "request": "launch",
+        "mainClass": "OOPS.studentApp",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "testApp",
+        "request": "launch",
+        "mainClass": "OOPS.testApp",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "allDuplicatesInArray442",
+        "request": "launch",
+        "mainClass": "LeetCode.allDuplicatesInArray442",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "setMismatch645",
+        "request": "launch",
+        "mainClass": "LeetCode.setMismatch645",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "firstMissingPositive41",
+        "request": "launch",
+        "mainClass": "LeetCode.firstMissingPositive41",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "diappearedNumsInArray448",
+        "request": "launch",
+        "mainClass": "LeetCode.diappearedNumsInArray448",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "findDuplicateNumber287",
+        "request": "launch",
+        "mainClass": "LeetCode.findDuplicateNumber287",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "missingNumUsingCycleSort268",
+        "request": "launch",
+        "mainClass": "LeetCode.missingNumUsingCycleSort268",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "reversePairs",
+        "request": "launch",
+        "mainClass": "mergeAndQuickSort.reversePairs",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "quickSortDecresingOrder",
+        "request": "launch",
+        "mainClass": "mergeAndQuickSort.quickSortDecresingOrder",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "KthLargestElementInArray215",
+        "request": "launch",
+        "mainClass": "LeetCode.KthLargestElementInArray215",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "findKthLargestElement",
+        "request": "launch",
+        "mainClass": "mergeAndQuickSort.findKthLargestElement",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "quickSortOptimised",
+        "request": "launch",
+        "mainClass": "mergeAndQuickSort.quickSortOptimised",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "quickSort",
+        "request": "launch",
+        "mainClass": "mergeAndQuickSort.quickSort",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "reversePairs493",
+        "request": "launch",
+        "mainClass": "LeetCode.reversePairs493",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "inversionCount",
+        "request": "launch",
+        "mainClass": "mergeAndQuickSort.inversionCount",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mergerSort",
+        "request": "launch",
+        "mainClass": "mergeAndQuickSort.mergerSort",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "countAndSay",
+        "request": "launch",
+        "mainClass": "recursion.PracticeQs.countAndSay",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "target",
+        "request": "launch",
+        "mainClass": "recursion.PracticeQs.target",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printReverseArray",
+        "request": "launch",
+        "mainClass": "recursion.PracticeQs.printReverseArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "checkForPowerOfTwo",
+        "request": "launch",
+        "mainClass": "recursion.PracticeQs.checkForPowerOfTwo",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "stairPath",
+        "request": "launch",
+        "mainClass": "recursion.PracticeQs.stairPath",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sumOfOddNums",
+        "request": "launch",
+        "mainClass": "recursion.PracticeQs.sumOfOddNums",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "subSetsII90",
+        "request": "launch",
+        "mainClass": "LeetCode.subSetsII90",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "countAndSay38",
+        "request": "launch",
+        "mainClass": "LeetCode.countAndSay38",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "stringCopression443",
+        "request": "launch",
+        "mainClass": "LeetCode.stringCopression443",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "generateParenthesis22",
+        "request": "launch",
+        "mainClass": "LeetCode.generateParenthesis22",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "binaryStrings",
+        "request": "launch",
+        "mainClass": "recursion.binaryStrings",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "gcd",
+        "request": "launch",
+        "mainClass": "recursion.gcd",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "permutation",
+        "request": "launch",
+        "mainClass": "recursion.permutation",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "powerSetLeetCode78",
+        "request": "launch",
+        "mainClass": "recursion.powerSetLeetCode78",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "subSets78",
+        "request": "launch",
+        "mainClass": "LeetCode.subSets78",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "powerSet",
+        "request": "launch",
+        "mainClass": "recursion.powerSet",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "removeAccurences",
+        "request": "launch",
+        "mainClass": "recursion.removeAccurences",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "stringTraversal",
+        "request": "launch",
+        "mainClass": "recursion.stringTraversal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printingArray",
+        "request": "launch",
+        "mainClass": "recursion.printingArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mazePath",
+        "request": "launch",
+        "mainClass": "recursion.mazePath",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "kunal",
+        "request": "launch",
+        "mainClass": "kunal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "checkArraySortedON",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.checkArraySortedON",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "checkArrayPalindrome",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.checkArrayPalindrome",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "stairPath",
+        "request": "launch",
+        "mainClass": "recursion.stairPath",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "fibonacci",
+        "request": "launch",
+        "mainClass": "recursion.fibonacci",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "aRaisedToPwerBUsingBinary",
+        "request": "launch",
+        "mainClass": "recursion.aRaisedToPwerBUsingBinary",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "aRaisedToPowerB",
+        "request": "launch",
+        "mainClass": "recursion.aRaisedToPowerB",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sumuptoN",
+        "request": "launch",
+        "mainClass": "recursion.sumuptoN",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printOnetoN",
+        "request": "launch",
+        "mainClass": "recursion.printOnetoN",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "pringNtoOne",
+        "request": "launch",
+        "mainClass": "recursion.pringNtoOne",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "factorial",
+        "request": "launch",
+        "mainClass": "recursion.factorial",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "recursion",
+        "request": "launch",
+        "mainClass": "recursion",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "kthMissingPositiveNumber1539",
+        "request": "launch",
+        "mainClass": "LeetCode.kthMissingPositiveNumber1539",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "miniMaxProductsOfDistributedStores2064",
+        "request": "launch",
+        "mainClass": "LeetCode.miniMaxProductsOfDistributedStores2064",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "capacityShipPackage1011",
+        "request": "launch",
+        "mainClass": "LeetCode.capacityShipPackage1011",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "smallestDevisorThreshold1283",
+        "request": "launch",
+        "mainClass": "LeetCode.smallestDevisorThreshold1283",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "findKSmallestEle658",
+        "request": "launch",
+        "mainClass": "LeetCode.findKSmallestEle658",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "searchInSortedArray33",
+        "request": "launch",
+        "mainClass": "Searching.searchInSortedArray33",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "searchInSortedArray33",
+        "request": "launch",
+        "mainClass": "LeetCode.searchInSortedArray33",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sqrtX69",
+        "request": "launch",
+        "mainClass": "LeetCode.sqrtX69",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "peakIndex",
+        "request": "launch",
+        "mainClass": "Searching.peakIndex",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "upperBoundLowerBound34",
+        "request": "launch",
+        "mainClass": "LeetCode.upperBoundLowerBound34",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "firstAndLastPosiOfSortedArray",
+        "request": "launch",
+        "mainClass": "Searching.firstAndLastPosiOfSortedArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "lowerBound",
+        "request": "launch",
+        "mainClass": "Searching.lowerBound",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "binarySearch704",
+        "request": "launch",
+        "mainClass": "LeetCode.binarySearch704",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "binarySearch",
+        "request": "launch",
+        "mainClass": "Searching.binarySearch",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "nDistinctElements",
+        "request": "launch",
+        "mainClass": "sorting.nDistinctElements",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "insertionSort",
+        "request": "launch",
+        "mainClass": "sorting.insertionSort",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "moveZeros283",
+        "request": "launch",
+        "mainClass": "LeetCode.moveZeros283",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "selectionSort",
+        "request": "launch",
+        "mainClass": "sorting.selectionSort",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "moveZeros283",
+        "request": "launch",
+        "mainClass": "sorting.moveZeros283",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "bubbleSort",
+        "request": "launch",
+        "mainClass": "sorting.bubbleSort",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "spiralNumberPattern",
+        "request": "launch",
+        "mainClass": "pattern_printing.specialPatterns.spiralNumberPattern",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "oddPositionOfString",
+        "request": "launch",
+        "mainClass": "strings.practice_questions.oddPositionOfString",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "compressString",
+        "request": "launch",
+        "mainClass": "strings.compressString",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "maxValInString",
+        "request": "launch",
+        "mainClass": "strings.maxValInString",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "isomorphicString",
+        "request": "launch",
+        "mainClass": "strings.isomorphicString",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mostOccuringChar",
+        "request": "launch",
+        "mainClass": "strings.mostOccuringChar",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "validAnagram242",
+        "request": "launch",
+        "mainClass": "LeetCode.validAnagram242",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "reverseIndividualWords",
+        "request": "launch",
+        "mainClass": "strings.reverseIndividualWords",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "reverseString",
+        "request": "launch",
+        "mainClass": "strings.reverseString",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "toggleCharOfString",
+        "request": "launch",
+        "mainClass": "strings.toggleCharOfString",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "updateEvenPosition",
+        "request": "launch",
+        "mainClass": "strings.updateEvenPosition",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printAllSubstring",
+        "request": "launch",
+        "mainClass": "strings.printAllSubstring",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rowColZero",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.rowColZero",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "spiralMatrix",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.spiralMatrix",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printWaveForm",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.printWaveForm",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateMatrix90DegreeAntiClockwice",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.rotateMatrix90DegreeAntiClockwice",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printDiagonal",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.printDiagonal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "eleOfMiddleRowAndCol",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.eleOfMiddleRowAndCol",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "maxSumInRow",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.maxSumInRow",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sumOfRectangle",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.sumOfRectangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "addTwoMatrices",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.addTwoMatrices",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "matrixOf5By5",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.practice_questions.matrixOf5By5",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "setMatrixZeroes73",
+        "request": "launch",
+        "mainClass": "LeetCode.setMatrixZeroes73",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "searchA2DMatrixIIM2",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.searchA2DMatrixIIM2",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "searchA2DMatrixII240",
+        "request": "launch",
+        "mainClass": "LeetCode.searchA2DMatrixII240",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "scoreAfterFlippingMatrix861",
+        "request": "launch",
+        "mainClass": "LeetCode.scoreAfterFlippingMatrix861",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "multiplicationOfMatrix",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.multiplicationOfMatrix",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "instaQuestion",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.instaQuestion",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "pascalTriangle",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrayList.pascalTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printing",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrayList.printing",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "printing",
+        "request": "launch",
+        "mainClass": "printing",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "spiralMatrix54",
+        "request": "launch",
+        "mainClass": "LeetCode.spiralMatrix54",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "spiralPrint",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.spiralPrint",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "wavePrint",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.wavePrint",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "addTwoMatrices",
+        "request": "launch",
+        "mainClass": "addTwoMatrices",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateMatrixBy90Degree",
+        "request": "launch",
+        "mainClass": "rotateMatrixBy90Degree",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateImage48",
+        "request": "launch",
+        "mainClass": "leetCode.rotateImage48",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateMatrixBy90Degree",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.rotateMatrixBy90Degree",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "transposeSquareMatrix",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.transposeSquareMatrix",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sortColors75",
+        "request": "launch",
+        "mainClass": "leetCode.sortColors75",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateArray189",
+        "request": "launch",
+        "mainClass": "leetCode.rotateArray189",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "twoSum1",
+        "request": "launch",
+        "mainClass": "leetCode.twoSum1",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "transposeMatrix867",
+        "request": "launch",
+        "mainClass": "leetCode.transposeMatrix867",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "transposeOfMatrix",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.transposeOfMatrix",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "addTwoMatrices",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.addTwoMatrices",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sumOfAllEle",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.sumOfAllEle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "findMaxVal",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.findMaxVal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "storeMarksAndRollNumber",
+        "request": "launch",
+        "mainClass": "two_dimensional_arrays.storeMarksAndRollNumber",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberOftriplets",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.numberOftriplets",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "checkArrayPalindrome",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.checkArrayPalindrome",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "uniqueNumber",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.uniqueNumber",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "operatiionsOnIndices",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.operatiionsOnIndices",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "diffBetEvenSumAndOddSum",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.diffBetEvenSumAndOddSum",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "checkArraySortedON",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.checkArraySortedON",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "threeLargestEle",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.threeLargestEle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "strictlyGreaterThanX",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.strictlyGreaterThanX",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "missingSmallestPtiveNum",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.missingSmallestPtiveNum",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "duplicateEle",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.duplicateEle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "minValueOfEle",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.minValueOfEle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "secondLargestEle",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.secondLargestEle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "productOfAllEleInArr",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.productOfAllEleInArr",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "nextGreastestEle",
+        "request": "launch",
+        "mainClass": "arrays.nextGreastestEle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mergeTwoSortedArraysM2",
+        "request": "launch",
+        "mainClass": "arrays.mergeTwoSortedArraysM2",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mergeTwoSortedArrays",
+        "request": "launch",
+        "mainClass": "arrays.mergeTwoSortedArrays",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mergeArray",
+        "request": "launch",
+        "mainClass": "arrays.mergeArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sortColors",
+        "request": "launch",
+        "mainClass": "leetCode.sortColors",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sortingDutchFlagAlgorithm",
+        "request": "launch",
+        "mainClass": "arrays.sortingDutchFlagAlgorithm",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sortArrayOfBinaryNums",
+        "request": "launch",
+        "mainClass": "arrays.sortArrayOfBinaryNums",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sortArrayOfBinaryNumbers",
+        "request": "launch",
+        "mainClass": "arrays.sortArrayOfBinaryNumbers",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateArrayMainMethod",
+        "request": "launch",
+        "mainClass": "arrays.rotateArrayMainMethod",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateArray",
+        "request": "launch",
+        "mainClass": "leetCode.rotateArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rotateArrBySteps",
+        "request": "launch",
+        "mainClass": "arrays.rotateArrBySteps",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "revArray",
+        "request": "launch",
+        "mainClass": "arrays.revArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "twoSum",
+        "request": "launch",
+        "mainClass": "leetCode.twoSum",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "twoSum",
+        "request": "launch",
+        "mainClass": "arrays.QuestionsOnArray.twoSum",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "arrayList",
+        "request": "launch",
+        "mainClass": "arrays.arrayList",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "copyOfArray",
+        "request": "launch",
+        "mainClass": "arrays.copyOfArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "secMaxVal",
+        "request": "launch",
+        "mainClass": "arrays.secMaxVal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "maximumVal",
+        "request": "launch",
+        "mainClass": "arrays.maximumVal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "linearSearch",
+        "request": "launch",
+        "mainClass": "arrays.linearSearch",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sumOfAllElementsOfArray",
+        "request": "launch",
+        "mainClass": "arrays.sumOfAllElementsOfArray",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rollNoOfFailStudents",
+        "request": "launch",
+        "mainClass": "arrays.rollNoOfFailStudents",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "squareOfDigit",
+        "request": "launch",
+        "mainClass": "methods.squareOfDigit",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "hollowDiamond2",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.hollowDiamond2",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "butterflyStar",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.butterflyStar",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "sandglassDiamond",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.sandglassDiamond",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "holloNumberPyramid",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.holloNumberPyramid",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "hollowDiamond",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.hollowDiamond",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "vShape",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.vShape",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberBridge2",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.numberBridge2",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberBridge",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.numberBridge",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "alphaPyramid",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.alphaPyramid",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberPyramid",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.numberPyramid",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.numberTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "hollowRectangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.hollowRectangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "diamondHalfPattern",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.diamondHalfPattern",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mixtureTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.mixtureTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "alphaTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.alphaTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberFlippedTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.numberFlippedTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberSquare",
+        "request": "launch",
+        "mainClass": "pattern_printing.practiceQuestions.numberSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "spiralNumberPattern",
+        "request": "launch",
+        "mainClass": "pattern_printing.specialPatterns.spiralNumberPattern",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "starDiamond",
+        "request": "launch",
+        "mainClass": "pattern_printing.compositeTriangles.starDiamond",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberBridge",
+        "request": "launch",
+        "mainClass": "pattern_printing.compositeTriangles.numberBridge",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "starBridge",
+        "request": "launch",
+        "mainClass": "pattern_printing.compositeTriangles.starBridge",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberPiramidPalindrome",
+        "request": "launch",
+        "mainClass": "pattern_printing.compositeTriangles.numberPiramidPalindrome",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "piramid",
+        "request": "launch",
+        "mainClass": "pattern_printing.compositeTriangles.piramid",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "rhombusStar",
+        "request": "launch",
+        "mainClass": "pattern_printing.compositeTriangles.rhombusStar",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "horizontallyFlippedTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.compositeTriangles.horizontallyFlippedTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "flippedNumberTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.specialPatterns.flippedNumberTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "starTriangleFlipped",
+        "request": "launch",
+        "mainClass": "pattern_printing.specialPatterns.starTriangleFlipped",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "binaryTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.specialPatterns.binaryTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "starCross",
+        "request": "launch",
+        "mainClass": "pattern_printing.specialPatterns.starCross",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "starPlus",
+        "request": "launch",
+        "mainClass": "pattern_printing.specialPatterns.starPlus",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "naturalNumbersTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.triangles.naturalNumbersTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "oddNumbersTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.triangles.oddNumbersTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "ultaTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.triangles.ultaTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "mixedTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.triangles.mixedTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "alphabetTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.triangles.alphabetTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "numberTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.triangles.numberTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "StarSquare",
+        "request": "launch",
+        "mainClass": "pattern_printing.squares.StarSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "starTriangle",
+        "request": "launch",
+        "mainClass": "pattern_printing.triangles.starTriangle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "AlphabetsSquare",
+        "request": "launch",
+        "mainClass": "pattern_printing.squares.AlphabetsSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "absoluteVal",
+        "request": "launch",
+        "mainClass": "conditionals.absoluteVal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "areaOfCircle",
+        "request": "launch",
+        "mainClass": "basics.areaOfCircle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "StarSquare",
+        "request": "launch",
+        "mainClass": "pattern_printing.StarSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "AlphabetsSquare",
+        "request": "launch",
+        "mainClass": "pattern_printing.AlphabetsSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "AlphabetsSquare",
+        "request": "launch",
+        "mainClass": "Pattern_Printing.AlphabetsSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "NumberSquare",
+        "request": "launch",
+        "mainClass": "Pattern_Printing.NumberSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "StarSquare",
+        "request": "launch",
+        "mainClass": "Pattern_Printing.StarSquare",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "SquareOfDigit",
+        "request": "launch",
+        "mainClass": "Methods.SquareOfDigit",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "OddNumbersBetweenTwoNumbers",
+        "request": "launch",
+        "mainClass": "Methods.OddNumbersBetweenTwoNumbers",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "areaOfACircle",
+        "request": "launch",
+        "mainClass": "Methods.areaOfACircle",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "SquaresOfNNaturalNumbers",
+        "request": "launch",
+        "mainClass": "Methods.SquaresOfNNaturalNumbers",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "Fibonacci",
+        "request": "launch",
+        "mainClass": "Loops.Fibonacci",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "Armstrong",
+        "request": "launch",
+        "mainClass": "Loops.Armstrong",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "GCD",
+        "request": "launch",
+        "mainClass": "Loops.GCD",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "MultiplicationTable",
+        "request": "launch",
+        "mainClass": "Loops.MultiplicationTable",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "SumOfNaturalNumbers",
+        "request": "launch",
+        "mainClass": "Loops.SumOfNaturalNumbers",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "GreatestOfThree",
+        "request": "launch",
+        "mainClass": "Conditionals.GreatestOfThree",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "LeapYear",
+        "request": "launch",
+        "mainClass": "Conditionals.LeapYear",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "ProfitOrLoss",
+        "request": "launch",
+        "mainClass": "Conditionals.ProfitOrLoss",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "AbsoluteVal",
+        "request": "launch",
+        "mainClass": "Conditionals.AbsoluteVal",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "EvenOdd",
+        "request": "launch",
+        "mainClass": "Conditionals.EvenOdd",
+        "projectName": "Java Programming_1c99971f"
+    },
+    {
+        "type": "java",
+        "name": "Java: Launch Program",
+        "request": "launch",
+        "mainClass": "${file}"
+    }
+]
+}

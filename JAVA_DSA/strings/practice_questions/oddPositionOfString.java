@@ -1,4 +1,3 @@
-package JAVA_DSA.strings.practice_questions;
 
 import java.util.Scanner;
 

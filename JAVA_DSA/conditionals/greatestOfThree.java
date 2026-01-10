@@ -1,4 +1,3 @@
-package JAVA_DSA.conditionals;
 
 import java.util.Scanner;
 

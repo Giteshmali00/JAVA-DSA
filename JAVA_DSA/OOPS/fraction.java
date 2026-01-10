@@ -1,4 +1,3 @@
-package JAVA_DSA.OOPS;
 
 public class fraction {
 

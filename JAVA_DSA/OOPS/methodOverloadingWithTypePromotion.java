@@ -1,4 +1,3 @@
-package JAVA_DSA.OOPS;
 
 class Demo {
     void disp(int x) {

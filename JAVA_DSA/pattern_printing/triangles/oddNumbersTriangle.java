@@ -1,4 +1,3 @@
-package JAVA_DSA.pattern_printing.triangles;
 
 import java.util.Scanner;
 

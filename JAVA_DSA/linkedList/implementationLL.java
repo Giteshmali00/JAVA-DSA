@@ -1,4 +1,3 @@
-package JAVA_DSA.linkedList;
 
 class SLL {
     Node head;

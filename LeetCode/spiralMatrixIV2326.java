@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class spiralMatrixIV2326 {
     public static void print(int[][] ans) {

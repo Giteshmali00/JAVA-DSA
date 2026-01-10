@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class rotateLL61 {
     // Method 2 :- slow & fast pointers.

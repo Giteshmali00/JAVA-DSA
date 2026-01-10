@@ -1,4 +1,3 @@
-package JAVA_DSA.OOPS;
 
 class Account {
     private double balance;

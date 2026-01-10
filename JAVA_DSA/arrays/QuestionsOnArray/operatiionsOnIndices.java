@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays.QuestionsOnArray;
 
 public class operatiionsOnIndices {
     public static void printArr(int[] arr) {

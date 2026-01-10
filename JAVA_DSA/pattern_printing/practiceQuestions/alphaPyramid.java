@@ -1,4 +1,3 @@
-package JAVA_DSA.pattern_printing.practiceQuestions;
 
 import java.util.Scanner;
 

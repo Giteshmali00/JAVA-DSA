@@ -1,1 +1,4 @@
 LeetCode/reverseNodeInKGroup.java
+*.class
+bin/
+out/

@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class moveZeros283 {
     public static void printArray(int[] arr) {

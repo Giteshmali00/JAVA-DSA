@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class firstMissingPositive41 {
     public static void print(int[] arr) {

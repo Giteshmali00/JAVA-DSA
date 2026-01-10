@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class middleOfTheLinkedList876 {
     // Method 1 :- 2 pass approach

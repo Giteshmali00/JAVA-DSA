@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays;
 
 public class rotateArrBySteps {
     public static void printArr(int[] arr) {

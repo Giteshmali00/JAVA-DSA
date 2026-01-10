@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays;
 
 public class wavePrint {
     public static void print2DArray(int[][] arr) {

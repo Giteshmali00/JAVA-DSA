@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class kthMissingPositiveNumber1539 {
     public static int findKthPositive(int[] arr, int k) {

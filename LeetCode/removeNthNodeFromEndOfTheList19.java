@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class removeNthNodeFromEndOfTheList19 {
     // Method 1 :-

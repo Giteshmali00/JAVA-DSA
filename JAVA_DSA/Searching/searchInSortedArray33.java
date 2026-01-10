@@ -1,4 +1,3 @@
-package JAVA_DSA.Searching;
 
 //  Bakwass Methodd.........! 
 // Main method is in LeetCode.searchInSortedArray33.java

@@ -1,4 +1,3 @@
-package JAVA_DSA.recursion;
 
 public class printingArray {
     public static void print(int[] arr, int i) {

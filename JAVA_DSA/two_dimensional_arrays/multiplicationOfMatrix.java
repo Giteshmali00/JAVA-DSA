@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays;
 
 public class multiplicationOfMatrix {
     public static void printMatrix(int[][] arr) {

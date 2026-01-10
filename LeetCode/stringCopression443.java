@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class stringCopression443 {
     public static int compress(char[] chars) {

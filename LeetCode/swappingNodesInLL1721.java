@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class swappingNodesInLL1721 {
     // Method 1 :- TC = O(~3n) which means O(n) Not good...

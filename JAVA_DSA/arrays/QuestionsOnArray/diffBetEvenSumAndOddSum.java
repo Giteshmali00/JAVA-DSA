@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays.QuestionsOnArray;
 
 public class diffBetEvenSumAndOddSum {
     public static void main(String[] args) {

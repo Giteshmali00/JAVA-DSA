@@ -1,4 +1,3 @@
-package JAVA_DSA.strings;
 
 public class updateEvenPosition {
     public static void main(String[] args) {

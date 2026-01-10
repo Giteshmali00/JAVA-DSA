@@ -1,4 +1,3 @@
-package JAVA_DSA.mergeAndQuickSort;
 
 public class findKthLargestElement {
     static int ans;

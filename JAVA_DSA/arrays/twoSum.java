@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays;
 
 public class twoSum {
     public static int[] twoSumm(int[] nums, int target) {

@@ -1,4 +1,3 @@
-package JAVA_DSA.recursion;
 
 public class removeAccurences {
     public static void printString(String str, int i, String ans) {

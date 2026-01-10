@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class scoreAfterFlippingMatrix861 {
     public static void print2DArray(int[][] arr) {

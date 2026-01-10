@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays.practice_questions;
 
 public class matrixOf5By5 {
     public static void printMatrix(int[][] arr) {

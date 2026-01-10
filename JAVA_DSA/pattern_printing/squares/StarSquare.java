@@ -1,4 +1,3 @@
-package JAVA_DSA.pattern_printing.squares;
 
 import java.util.Scanner;
 

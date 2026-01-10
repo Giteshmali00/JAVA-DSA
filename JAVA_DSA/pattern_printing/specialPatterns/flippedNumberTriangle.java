@@ -1,4 +1,3 @@
-package JAVA_DSA.pattern_printing.specialPatterns;
 
 import java.util.Scanner;
 

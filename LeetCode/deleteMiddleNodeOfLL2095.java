@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class deleteMiddleNodeOfLL2095 {
     // Method 1 :-

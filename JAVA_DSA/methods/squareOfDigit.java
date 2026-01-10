@@ -1,4 +1,3 @@
-package JAVA_DSA.methods;
 
 import java.util.Scanner;
 

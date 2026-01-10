@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class upperBoundLowerBound34 {
     public static int[] searchRange(int[] nums, int target) {

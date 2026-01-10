@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays.practice_questions;
 
 public class sumOfRectangle {
     public static void main(String[] args) {

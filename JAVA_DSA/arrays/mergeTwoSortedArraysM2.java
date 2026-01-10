@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays;
 
 public class mergeTwoSortedArraysM2 {
     public static void printArr(int[] arr) {

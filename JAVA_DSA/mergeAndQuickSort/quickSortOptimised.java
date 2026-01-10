@@ -1,4 +1,3 @@
-package JAVA_DSA.mergeAndQuickSort;
 
 public class quickSortOptimised {
     public static void print(int[] arr) {

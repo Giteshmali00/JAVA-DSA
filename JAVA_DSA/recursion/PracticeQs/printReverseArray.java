@@ -1,4 +1,3 @@
-package JAVA_DSA.recursion.PracticeQs;
 
 public class printReverseArray {
     public static void printArr(int[] arr, int i) {

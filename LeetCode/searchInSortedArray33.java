@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class searchInSortedArray33 {
     public static int search(int[] arr, int target) {

@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class missingNumUsingCycleSort268 {
     public static void swap(int[] arr, int i, int j) {

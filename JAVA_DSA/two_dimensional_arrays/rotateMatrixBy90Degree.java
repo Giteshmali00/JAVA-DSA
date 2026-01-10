@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays;
 
 public class rotateMatrixBy90Degree {
     public static void main(String[] args) {

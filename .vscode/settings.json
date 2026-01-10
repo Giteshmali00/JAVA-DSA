@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "LeetCode",
+        "JAVA_DSA/arrays/QuestionsOnArray"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

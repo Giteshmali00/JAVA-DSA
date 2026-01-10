@@ -1,4 +1,3 @@
-package JAVA_DSA.Searching;
 
 public class lowerBound {
     public static void main(String[] args) {

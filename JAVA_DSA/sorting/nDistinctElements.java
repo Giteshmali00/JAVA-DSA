@@ -1,4 +1,3 @@
-package JAVA_DSA.sorting;
 
 public class nDistinctElements {
     public static void printArray(int[] arr) {

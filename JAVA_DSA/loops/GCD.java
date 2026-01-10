@@ -1,4 +1,3 @@
-package JAVA_DSA.loops;
 
 import java.util.Scanner;
 

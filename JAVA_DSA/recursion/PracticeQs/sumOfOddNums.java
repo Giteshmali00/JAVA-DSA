@@ -1,4 +1,3 @@
-package JAVA_DSA.recursion.PracticeQs;
 
 import java.util.Scanner;
 

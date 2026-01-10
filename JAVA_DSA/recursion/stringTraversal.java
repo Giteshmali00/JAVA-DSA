@@ -1,4 +1,3 @@
-package JAVA_DSA.recursion;
 
 public class stringTraversal {
     public static void printString(String str, int i) {

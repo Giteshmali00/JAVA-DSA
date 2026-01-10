@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class sortColors75 {
     public static void printArr(int[] arr) {

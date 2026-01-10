@@ -1,4 +1,3 @@
-package JAVA_DSA.recursion;
 
 public class permutation {
     public static void permu(String str, String store) {

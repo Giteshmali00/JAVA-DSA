@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays.QuestionsOnArray;
 
 public class checkArraySortedON {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays;
 
 public class findMaxVal {
     public static void main(String[] args) {

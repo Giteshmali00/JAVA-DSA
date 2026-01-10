@@ -1,4 +1,3 @@
-package JAVA_DSA.arrays.QuestionsOnArray;
 
 public class checkArrayPalindrome {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class LLCycle141 {
     public static boolean hasCycle(Node head) {

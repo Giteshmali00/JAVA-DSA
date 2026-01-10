@@ -1,4 +1,3 @@
-package JAVA_DSA.two_dimensional_arrays.practice_questions;
 
 public class addTwoMatrices {
     public static void printMatrix(int[][] matrix) {

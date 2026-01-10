@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class reversePairs493 {
     static int count;

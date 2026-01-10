@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class removeDuplicatesFromSortedLL83 {
     public static Node deleteDuplicates(Node head) {

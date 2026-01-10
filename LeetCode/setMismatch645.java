@@ -1,4 +1,3 @@
-package LeetCode;
 
 public class setMismatch645 {
     public static void print(int[] arr) {

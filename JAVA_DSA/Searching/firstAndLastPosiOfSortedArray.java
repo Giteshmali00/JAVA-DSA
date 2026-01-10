@@ -1,4 +1,3 @@
-package JAVA_DSA.Searching;
 
 public class firstAndLastPosiOfSortedArray {
     public static int[] searchRange(int[] nums, int target) {
