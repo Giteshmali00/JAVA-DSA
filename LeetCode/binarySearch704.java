@@ -30,6 +30,7 @@ public class binarySearch704 {
         }
         System.out.print("Enter Target element : ");
         int target = sc.nextInt();
+        sc.close();
         int forn = search(nums, target);
         if (forn == -1) {
             System.out.print("Target not found!!");

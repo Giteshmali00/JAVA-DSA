@@ -26,6 +26,7 @@ public class searchA2DMatrixII240 {
         };
         System.out.print("Enter Target : ");
         int target = sc.nextInt();
+        sc.close();
         boolean flag = searchMatrix(matrix, target);
         if (flag)
             System.out.print("Element Found..");

@@ -13,6 +13,7 @@ public class strictlyGreaterThanX {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter X : ");
         int x = sc.nextInt();
+        sc.close();
 
         int[] arr = { 10, 25, 57, 23, 57, 555, 234, 2121, 77, 9, 4, 99 };
         int n = arr.length;

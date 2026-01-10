@@ -1,4 +1,3 @@
-
 public class revArray {
     public static void printArr(int[] arr) {
         for (int ele : arr) {

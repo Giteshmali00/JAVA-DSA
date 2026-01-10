@@ -20,6 +20,7 @@ public class smallestDevisorThreshold1283 {
         int n = arr.length;
         Scanner sc = new Scanner(System.in);
         int threshold = sc.nextInt();
+        sc.close();
         int mx = Integer.MAX_VALUE;
         for (int i = 0; i < n; i++) {
             mx = Math.min(arr[i], mx);

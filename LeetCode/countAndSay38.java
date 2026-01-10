@@ -27,6 +27,7 @@ public class countAndSay38 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter N : ");
         int n = sc.nextInt();
+        sc.close();
         String ans = countAndSay(n);
         System.out.println(ans);
     }

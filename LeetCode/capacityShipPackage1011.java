@@ -23,6 +23,7 @@ public class capacityShipPackage1011 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Days : ");
         int days = sc.nextInt();
+        sc.close();
         int mx = Integer.MIN_VALUE;
         int tsum = 0;
         for (int i = 0; i < n; i++) {

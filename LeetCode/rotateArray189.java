@@ -23,6 +23,7 @@ public class rotateArray189 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Number of Steps : ");
         int k = sc.nextInt();
+        sc.close();
         k = k % len;
         printArr(arr);
         rotate(arr, 0, len - k - 1);

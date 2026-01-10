@@ -66,6 +66,7 @@ public class KthLargestElementInArray215 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter K : ");
         int k = sc.nextInt();
+        sc.close();
         ans = -1;
         quickSelect(arr, 0, n - 1, n - k + 1);
         System.out.println(ans);

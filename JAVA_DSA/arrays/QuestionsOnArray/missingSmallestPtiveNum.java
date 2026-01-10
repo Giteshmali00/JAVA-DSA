@@ -18,6 +18,7 @@ public class missingSmallestPtiveNum {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
         printArr(arr);
         int j = 1;
         boolean found = false;

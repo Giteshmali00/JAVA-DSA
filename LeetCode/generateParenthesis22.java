@@ -21,6 +21,7 @@ public class generateParenthesis22 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter N : ");
         int n = sc.nextInt();
+        sc.close();
         ans = new ArrayList<>();
         parenthesis(0, 0, n, "");
         System.out.println(ans);

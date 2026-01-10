@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "strictlyGreaterThanX",
+        "request": "launch",
+        "mainClass": "strictlyGreaterThanX",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
         "name": "checkArrayPalindrome",
         "request": "launch",
         "mainClass": "checkArrayPalindrome",
