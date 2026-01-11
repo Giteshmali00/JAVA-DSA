@@ -3,6 +3,41 @@
   "configurations": [
     {
         "type": "java",
+        "name": "mergeTwoSortedLL21",
+        "request": "launch",
+        "mainClass": "mergeTwoSortedLL21",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "findDuplicateNumber287",
+        "request": "launch",
+        "mainClass": "findDuplicateNumber287",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "moveZeros283",
+        "request": "launch",
+        "mainClass": "moveZeros283",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "binarySearch704",
+        "request": "launch",
+        "mainClass": "binarySearch704",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "allDuplicatesInArray442",
+        "request": "launch",
+        "mainClass": "allDuplicatesInArray442",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
         "name": "strictlyGreaterThanX",
         "request": "launch",
         "mainClass": "strictlyGreaterThanX",

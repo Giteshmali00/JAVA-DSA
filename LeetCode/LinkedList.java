@@ -1,6 +1,7 @@
 
 //This is Blue Print for all Linked List creation in "LeetCode" Package.
-class LinkedList {
+
+public class LinkedList {
     Node head;
     Node tail;
     int size;
