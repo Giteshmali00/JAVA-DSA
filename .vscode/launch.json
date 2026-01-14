@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "mergeKSortedLL23",
+        "request": "launch",
+        "mainClass": "mergeKSortedLL23",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "mergeKSorteLL23",
+        "request": "launch",
+        "mainClass": "mergeKSorteLL23",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
+        "name": "sortLL148",
+        "request": "launch",
+        "mainClass": "sortLL148",
+        "projectName": "Java Programming_9d13756d"
+    },
+    {
+        "type": "java",
         "name": "mergeTwoSortedLL21",
         "request": "launch",
         "mainClass": "mergeTwoSortedLL21",
