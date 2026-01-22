@@ -1,4 +1,5 @@
 public class copyLLWithRandomPointers138 {
+    // Definition for a Node.
     public static class Node {
         int val;
         Node next;

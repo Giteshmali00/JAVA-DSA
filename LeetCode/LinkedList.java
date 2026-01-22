@@ -10,10 +10,11 @@ public class LinkedList {
         Node temp = new Node(val);
         if (head == null) {
             head = tail = temp;
+        }else{
+            tail.next = temp;
+            tail = temp;
         }
-
-        tail.next = temp;
-        tail = temp;
+        size++;
     }
 
     void insertAtHead(int val) {
