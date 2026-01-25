@@ -1,13 +1,3 @@
-
-class Node {
-    int val;
-    Node next;
-
-    Node(int val) {
-        this.val = val;
-    }
-}
-
 public class practice {
     // Without Recursion
     // public static void print(Node head) {

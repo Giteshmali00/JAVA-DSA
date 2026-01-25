@@ -1,4 +1,3 @@
-
 class SLL {
     Node head;
     Node tail;

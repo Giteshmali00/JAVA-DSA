@@ -1,4 +1,3 @@
-
 class LL {
     Node head;
     Node tail;
