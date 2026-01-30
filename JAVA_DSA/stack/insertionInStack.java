@@ -1,6 +1,15 @@
 import java.util.Stack;
 
 public class insertionInStack {
+    public static void insertAtBottom(Stack<Integer> st, int ele){
+        if(st.size() == 0){
+            st.push(ele);
+            return;
+        }
+        int x = st.pop();
+        insertAtBottom(st, ele);
+        st.push(x);
+    }
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
         st.push(1);
@@ -24,6 +33,9 @@ public class insertionInStack {
             st.push(temp.pop());
         }
 
+        System.out.println(st);
+
+        insertAtBottom(st, 20);
         System.out.println(st);
     }
 }

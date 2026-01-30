@@ -1,6 +1,21 @@
 import java.util.Stack;
 
 public class printingStack {
+
+    public static void recPrintRev(Stack<Integer> st){
+        if(st.size() == 0) return;
+        int x = st.pop();
+        System.out.print(x+" ");
+        recPrintRev(st);
+        st.push(x);
+    }
+    public static void recPrint(Stack<Integer> st){
+        if(st.size() == 0) return;
+        int x = st.pop();
+        recPrint(st);
+        System.out.print(x+" ");
+        st.push(x);
+    }
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
         st.push(1);
@@ -24,5 +39,10 @@ public class printingStack {
         System.out.println();
 
         System.out.println(st);
+        recPrint(st);
+        System.out.println();
+        System.out.println(st);
+
+        recPrintRev(st);
     }
 }
