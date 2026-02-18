@@ -2,3 +2,7 @@ LeetCode/reverseNodeInKGroup.java
 *.class
 bin/
 out/
+
+.idea/
+
+*.iml
