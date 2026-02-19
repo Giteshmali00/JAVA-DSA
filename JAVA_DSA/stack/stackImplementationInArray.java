@@ -1,7 +1,7 @@
 public class stackImplementationInArray {
     public static class Stack{
-        int[] stArr;
-        int idx = 0;
+        private int[] stArr;
+        private int idx = 0;
         Stack(int size){
             stArr = new int[size];
         }
