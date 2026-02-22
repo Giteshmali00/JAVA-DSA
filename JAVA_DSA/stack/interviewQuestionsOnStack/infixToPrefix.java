@@ -2,7 +2,7 @@
 
 import java.util.Stack;
 
-public class prefix {
+public class infixToPrefix {
     public static String operation(char opt, String v1, String v2){
         return opt + v1 + v2;
     }
@@ -12,12 +12,13 @@ public class prefix {
         return 0;
     }
     public static void main(String[] args){
-        String str = "9-(5+3)*4/6";
+        String infix = "9-(5+3)*4/6";
+        System.out.println("Infix : "+infix);
         Stack<String> val = new Stack<>();
         Stack<Character> op = new Stack<>();
 
-        for(int i = 0; i < str.length(); i++){
-            char ch = str.charAt(i);
+        for(int i = 0; i < infix.length(); i++){
+            char ch = infix.charAt(i);
             if(ch >= '0' && ch <= '9')
                 val.push(ch+"");
             else if(ch == '(')
@@ -49,7 +50,7 @@ public class prefix {
             char opt = op.pop();
             val.push(operation(opt,v1,v2));
         }
-
-        System.out.println(val.peek());
+        String prefix = val.pop();
+        System.out.println("Prefix : "+prefix);
     }
 }
