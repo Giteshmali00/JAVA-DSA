@@ -2,55 +2,55 @@
 
 import java.util.Stack;
 
-public class infixToPrefix {
-    public static String prefix(char opt, String v1, String v2){
-        return opt + v1 + v2;
+public class infixToPostfix {
+    public static String postfix(String v1, String v2,char opt){
+        return v1+v2+opt;
     }
-    public static int precedence(char opt){
-        if (opt == '+' || opt == '-') return 1;
-        else if(opt == '*' || opt == '/') return 2;
+    public static int precedence(char ch){
+        if (ch=='+' || ch=='-') return 1;
+        else if (ch=='*' || ch=='/') return 2;
         return 0;
     }
-    public static void main(String[] args){
-        String infix = "9-(5+3)*4/6";
+    public static void main(String[] args) {
+        String infix = "9-(5+3)*4/6"; // postfix = 953+4*6/-
         System.out.println("Infix : "+infix);
-        Stack<String> val = new Stack<>();
+        Stack<String> val  = new Stack<>();
         Stack<Character> op = new Stack<>();
 
         for(int i = 0; i < infix.length(); i++){
             char ch = infix.charAt(i);
             if(ch >= '0' && ch <= '9')
                 val.push(ch+"");
-            else if(ch == '(')
+            else if(ch=='(')
                 op.push(ch);
-            else if(ch == ')'){
-                while(op.peek() != '('){
-                    // work
+            else if(ch==')'){
+                while (op.peek() != '(') {
                     String v2 = val.pop();
                     String v1 = val.pop();
                     char opt = op.pop();
-                    val.push(prefix(opt,v1,v2));
+                    val.push(postfix(v1,v2,opt));
                 }
                 op.pop();
             }
-            else{
+            else {
                 while(!op.isEmpty() && op.peek() != '(' &&
                         precedence(op.peek()) >= precedence(ch)){
                     String v2 = val.pop();
                     String v1 = val.pop();
                     char opt = op.pop();
-                    val.push(prefix(opt,v1,v2));
+                    val.push(postfix(v1,v2,opt));
                 }
                 op.push(ch);
             }
         }
+
         while(!op.isEmpty()){
             String v2 = val.pop();
             String v1 = val.pop();
             char opt = op.pop();
-            val.push(prefix(opt,v1,v2));
+            val.push(postfix(v1,v2,opt));
         }
-        String prefix = val.pop();
-        System.out.println("Prefix : "+prefix);
+        String postfix = val.pop();
+        System.out.println("Postfix : "+postfix);
     }
 }
