@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class infix {
+public class infixEvaluation {
     public static int precedence(char ch){
         if(ch == '+' || ch == '-') return 1;
         if(ch == '*' || ch == '/') return 2;
