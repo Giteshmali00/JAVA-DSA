@@ -44,7 +44,6 @@ public class circularQueueImplementationUsingArray {
                 else i++;
             }
             System.out.println(arr[i]+" ");
-
         }
 
         int size(){return size;}
