@@ -1,43 +1,34 @@
 import java.util.Stack;
 
 public class minStack155 {
-    public static class MinStack{
-        Stack<Long> st = new Stack<>();
-        long min = 0;
-        void push(int val) {
-            long x = (long)val;
-            if(st.size() == 0){
-                min = x;
-                st.push(x);
-            }else if(x < min){
-                st.push(2*x-min);
-                min = x;
+    public static class MinStack {
+        Stack<Integer> st = new Stack<>();
+        int min = Integer.MAX_VALUE;
+        public MinStack() {
+
+        }
+        public void push(int val) {
+            if(val <= min){
+                st.push(min);
+                min = val;
             }
-            else{
-                st.push(x);
-            }
+            st.push(val);
         }
 
-        void pop() {
-            if(st.peek() < min)
-                min = 2*min - st.pop();
-            else
-                st.pop();
+        public void pop() {
+            if(st.pop() == min)
+                min = st.pop();
         }
 
-        int top() {
-            if(st.peek() < min)
-                return (int)min;
-            else{
-                long x = st.peek();
-                return (int)x;
-            }
+        public int top() {
+            return st.peek();
         }
 
-        int getMin() {
-            return (int)min;
+        public int getMin() {
+            return min;
         }
     }
+
     public static void main(String[] args){
         MinStack ms = new MinStack();
         ms.push(4);
