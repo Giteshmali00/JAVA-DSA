@@ -45,6 +45,9 @@ public class circularQueueImplementationUsingLL {
 
             System.out.println();
         }
+        boolean isEmpty(){
+            return size == 0;
+        }
         int size(){return size;}
     }
     static void main(String[] args) {
