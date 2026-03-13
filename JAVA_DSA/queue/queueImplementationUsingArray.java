@@ -24,6 +24,9 @@ public class queueImplementationUsingArray {
             }
             System.out.println();
         }
+        boolean isEmpty(){
+            return front == rear;
+        }
         int size(){
             return rear-front;
         }
