@@ -1,3 +1,5 @@
+package deque;
+
 public class dequeImplementationUsingLL {
     public static class DNode{
         int val;
