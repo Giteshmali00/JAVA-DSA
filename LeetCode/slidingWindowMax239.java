@@ -1,3 +1,5 @@
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class slidingWindowMax239 {
@@ -7,6 +9,7 @@ public class slidingWindowMax239 {
         }
         System.out.println();
     }
+    //Approach 1 : Using Stack
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
         int[] ans = new int[n-k+1];
@@ -32,12 +35,29 @@ public class slidingWindowMax239 {
 
         return ans;
     }
+    //Approach 2 : Using Deque
+    public static int[] maxSlidingWindow2(int[] nums, int k) {
+        int n = nums.length;
+        int[] ans = new int[n-k+1];
+        Deque<Integer> dq = new LinkedList<>();
+
+        for(int i = 0; i < n; i++){
+            while(!dq.isEmpty() && i - dq.peekFirst() >= k)
+                dq.pollFirst();
+            while(!dq.isEmpty() && nums[dq.peekLast()] < nums[i])
+                dq.pollLast();
+            dq.addLast(i);
+            if(i >= k - 1) ans[i - k + 1] = nums[dq.peekFirst()];
+        }
+
+        return ans;
+    }
     static void main(String[] args) {
         int[] arr = {1,3,-1,-3,5,3,6,7};
         print(arr);
         int k = 3;
         System.out.println("K = "+k);
-        int[] ans = maxSlidingWindow(arr,k);
+        int[] ans = maxSlidingWindow2(arr,k);
 
         print(ans);
     }
