@@ -22,15 +22,13 @@ public class levelOfTheTree {
         Node e = new Node(5);
         Node f = new Node(6);
         Node g = new Node(7);
-        Node h = new Node(8);
 
         a.left = b;
         a.right = c;
         b.left = d;
         b.right = e;
-        c.left = g;
-        c.right = f;
-        e.right = h;
+        c.left = f;
+        c.right = g;
 
         print(a);
         System.out.println();
