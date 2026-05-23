@@ -20,7 +20,11 @@ class traversal{
         postorder(root.right);
         System.out.print(root.val+" ");
     }
-
+    private static boolean ifExists(Node root, Node poq){
+        if(root==null) return false;
+        if(root==poq) return true;
+        return ifExists(root.left, poq) ? true : ifExists(root.right, poq);
+    }
     public static void main(String[] args) {
         Node a = new Node(1);
         Node b = new Node(2);
@@ -49,6 +53,8 @@ class traversal{
         System.out.print("Postorder : ");
         postorder(a);
         System.out.println();
+
+        System.out.println(ifExists(a, f));
 
     }
 }
