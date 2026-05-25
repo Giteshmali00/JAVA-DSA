@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 class traversal{
     private static void preorder(Node root){
         if(root == null) return;
@@ -20,10 +22,26 @@ class traversal{
         postorder(root.right);
         System.out.print(root.val+" ");
     }
-    private static boolean ifExists(Node root, Node poq){
-        if(root==null) return false;
-        if(root==poq) return true;
-        return ifExists(root.left, poq) ? true : ifExists(root.right, poq);
+    //Breadth-First Search (BFS) :-
+    private static void levelOrder(Node root){
+        Queue<Node> q = new LinkedList<>();
+        if(root!=null)q.add(root);
+        while(!q.isEmpty()){
+            Node temp = q.poll();
+            System.out.print(temp.val+" ");
+            if(temp.left != null) q.add(temp.left);
+            if(temp.right != null) q.add(temp.right);
+        }
+        System.out.println();
+    }
+    private static void nthLevel(Node root, int n){
+        if(root==null) return;
+        if(n==0){
+            System.out.print(root.val+" ");
+            return;
+        }
+        nthLevel(root.left, n-1);
+        nthLevel(root.right, n-1);
     }
     public static void main(String[] args) {
         Node a = new Node(1);
@@ -54,7 +72,11 @@ class traversal{
         postorder(a);
         System.out.println();
 
-        System.out.println(ifExists(a, f));
+        System.out.print("Level order : ");
+        levelOrder(a);
+
+        System.out.print("Print Nth Level : ");
+        nthLevel(a, 2);
 
     }
 }
