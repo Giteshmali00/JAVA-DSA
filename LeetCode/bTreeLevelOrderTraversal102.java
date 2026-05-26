@@ -3,6 +3,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+
 class bTreeLevelOrderTraversal102{
     //Method 1 : Using Queue and without using Pair class
     public static List<List<Integer>> levelOrder(TreeNode root) {
@@ -49,6 +50,39 @@ class bTreeLevelOrderTraversal102{
         
         return ans;
     }
+    //Method 3 : Using Queue and Pair class
+    public static class Pair{
+        TreeNode node;
+        int val;
+        Pair(TreeNode node, int val){
+            this.node = node;
+            this.val = val;
+        }
+    }
+    public static List<List<Integer>> levelOrder3(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        int n = level(root);
+        Queue<Pair> q = new LinkedList<>();
+        if(root != null)q.add(new Pair(root, 0));
+
+        int curval = 0;
+        List<Integer> l = new ArrayList<>();
+        while(!q.isEmpty()){
+            Pair temp = q.poll();
+            if(temp.val != curval){
+                ans.add(l);
+                l = new ArrayList<>();
+                curval++;
+            }
+            l.add(temp.node.val);
+            if(temp.node.left != null) q.add(new Pair(temp.node.left, temp.val + 1));
+            if(temp.node.right != null) q.add(new Pair(temp.node.right, temp.val + 1));
+        }
+        if(l.size() != 0) ans.add(l);
+
+        return ans;
+    }
+    
     public static void main(String[] args) {
         TreeNode a = new TreeNode(1);
         TreeNode b = new TreeNode(2);
@@ -69,5 +103,6 @@ class bTreeLevelOrderTraversal102{
         
         System.out.println("Level Order Traversal : "+levelOrder(a));
         System.out.println("Level Order Traversal2 : "+levelOrder2(a));
+        System.out.println("Level Order Traversal3 : "+levelOrder3(a));
     }
 }
