@@ -1,21 +1,21 @@
 import java.util.LinkedList;
 import java.util.Queue;
 class traversal{
-    private static void preorder(Node root){
+    private static void preorder(TreeNode root){
         if(root == null) return;
 
         System.out.print(root.val+" ");
         preorder(root.left);
         preorder(root.right);
     }
-    private static void inorder(Node root){
+    private static void inorder(TreeNode root){
         if(root == null) return;
 
         inorder(root.left);
         System.out.print(root.val+" ");
         inorder(root.right);
     }
-    private static void postorder(Node root){
+    private static void postorder(TreeNode root){
         if(root == null) return;
 
         postorder(root.left);
@@ -23,18 +23,18 @@ class traversal{
         System.out.print(root.val+" ");
     }
     //Breadth-First Search (BFS) :-
-    private static void levelOrder(Node root){
-        Queue<Node> q = new LinkedList<>();
+    private static void levelOrder(TreeNode root){
+        Queue<TreeNode> q = new LinkedList<>();
         if(root!=null)q.add(root);
         while(!q.isEmpty()){
-            Node temp = q.poll();
+            TreeNode temp = q.poll();
             System.out.print(temp.val+" ");
             if(temp.left != null) q.add(temp.left);
             if(temp.right != null) q.add(temp.right);
         }
         System.out.println();
     }
-    private static void nthLevel(Node root, int n){
+    private static void nthLevel(TreeNode root, int n){
         if(root==null) return;
         if(n==0){
             System.out.print(root.val+" ");
@@ -44,15 +44,15 @@ class traversal{
         nthLevel(root.right, n-1);
     }
     public static void main(String[] args) {
-        Node a = new Node(1);
-        Node b = new Node(2);
-        Node c = new Node(3);
-        Node d = new Node(4);
-        Node e = new Node(5);
-        Node f = new Node(6);
-        Node g = new Node(7);
-        Node h = new Node(8);
-        Node i = new Node(9);
+        TreeNode a = new TreeNode(1);
+        TreeNode b = new TreeNode(2);
+        TreeNode c = new TreeNode(3);
+        TreeNode d = new TreeNode(4);
+        TreeNode e = new TreeNode(5);
+        TreeNode f = new TreeNode(6);
+        TreeNode g = new TreeNode(7);
+        TreeNode h = new TreeNode(8);
+        TreeNode i = new TreeNode(9);
 
         a.left = b; a.right = c;
         b.left = d; b.right = e;

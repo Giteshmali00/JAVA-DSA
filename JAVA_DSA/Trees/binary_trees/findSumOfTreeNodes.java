@@ -1,5 +1,5 @@
-class findSumOfTreeNodes {
-    private static void print(Node root) {
+class findSumOfTreeTreeNodes {
+    private static void print(TreeNode root) {
         if (root == null)
             return;
         System.out.print(root.val + " ");
@@ -7,19 +7,19 @@ class findSumOfTreeNodes {
         print(root.right);
     }
 
-    private static int sum(Node root) {
+    private static int sum(TreeNode root) {
         if (root == null)
             return 0;
         return root.val + sum(root.left) + sum(root.right);
     }
 
-    private static int product(Node root) {
+    private static int product(TreeNode root) {
         if (root == null)
             return 1;
         return root.val * product(root.left) * product(root.right);
     }
 
-    private static int nonZeroProduct(Node root) {
+    private static int nonZeroProduct(TreeNode root) {
         if (root == null)
             return 1;
         if (root.val == 0)
@@ -29,12 +29,12 @@ class findSumOfTreeNodes {
     }
 
     public static void main(String[] args) {
-        Node a = new Node(1);
-        Node b = new Node(0);
-        Node c = new Node(3);
-        Node d = new Node(4);
-        Node e = new Node(5);
-        Node f = new Node(6);
+        TreeNode a = new TreeNode(1);
+        TreeNode b = new TreeNode(0);
+        TreeNode c = new TreeNode(3);
+        TreeNode d = new TreeNode(4);
+        TreeNode e = new TreeNode(5);
+        TreeNode f = new TreeNode(6);
 
         a.left = b;
         a.right = c;
@@ -45,9 +45,9 @@ class findSumOfTreeNodes {
         print(a);
         System.out.println();
 
-        System.out.println("Sum of all Tree Nodes : " + sum(a));
-        System.out.println("Product of all Tree Nodes : " + product(a));
-        System.out.println("Product of all Non-zero Tree Nodes : " + nonZeroProduct(a));
+        System.out.println("Sum of all Tree TreeNodes : " + sum(a));
+        System.out.println("Product of all Tree TreeNodes : " + product(a));
+        System.out.println("Product of all Non-zero Tree TreeNodes : " + nonZeroProduct(a));
 
     }
 }

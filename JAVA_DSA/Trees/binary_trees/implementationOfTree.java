@@ -1,15 +1,15 @@
-class Node {
+class TreeNode {
     int val;
-    Node left;
-    Node right;
+    TreeNode left;
+    TreeNode right;
 
-    Node(int val) {
+    TreeNode(int val) {
         this.val = val;
     }
 }
 
 class implementationOfTree {
-    public static void print(Node root) {
+    public static void print(TreeNode root) {
         if (root == null)
             return;
         System.out.print(root.val + " ");
@@ -18,12 +18,12 @@ class implementationOfTree {
     }
 
     public static void main(String[] args) {
-        Node a = new Node(1);
-        Node b = new Node(2);
-        Node c = new Node(3);
-        Node d = new Node(4);
-        Node e = new Node(5);
-        Node f = new Node(6);
+        TreeNode a = new TreeNode(1);
+        TreeNode b = new TreeNode(2);
+        TreeNode c = new TreeNode(3);
+        TreeNode d = new TreeNode(4);
+        TreeNode e = new TreeNode(5);
+        TreeNode f = new TreeNode(6);
 
         a.left = b;
         a.right = c;
