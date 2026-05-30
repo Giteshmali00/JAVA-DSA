@@ -1,4 +1,6 @@
+
 class diameterOfBinaryTree543{
+    //Method 1 : TC = O(n square);
     private static void preorder(TreeNode root){
         if(root == null) {
             System.out.print("null ");
@@ -19,6 +21,20 @@ class diameterOfBinaryTree543{
         int leftDia = diameterOfBinaryTree(root.left);
         int rightDia = diameterOfBinaryTree(root.right);
         return Math.max(myDia, Math.max(leftDia, rightDia));
+    }
+    //Method 2 : TC = O(n);
+    public static int currDiameter(TreeNode root,int[] ans){
+        if(root == null) return 0;
+        int ll = currDiameter(root.left,ans);
+        int lr = currDiameter(root.right,ans);
+        int myDia = ll + lr;
+        ans[0] = Math.max(myDia, ans[0]);
+        return 1 + Math.max(ll,lr);
+    }
+    public static int diameterOfBinaryTree2(TreeNode root) {
+        int[] ans = {0};
+        currDiameter(root,ans);
+        return ans[0];
     }
     public static void main(String[] args) {
         TreeNode root = new TreeNode(4);
@@ -56,5 +72,6 @@ class diameterOfBinaryTree543{
         System.out.println();
 
         System.out.println("Diameter of Binary Tree : "+diameterOfBinaryTree(root));
+        System.out.println("Diameter of Binary Tree Method 2 : "+diameterOfBinaryTree2(root));
     }
 }
