@@ -24,7 +24,8 @@ public class topViewOfBinaryTree {
             Pair pair = q.poll();
             TreeNode rNode = pair.root;
             int lvl = pair.level;
-            if(!map.containsKey(lvl)) map.put(lvl, rNode.val);
+            if(!map.containsKey(lvl)) //Just removing this condition you will get bottom view of binary tree
+                map.put(lvl, rNode.val);
             if(rNode.left!=null) {
                 q.add(new Pair(rNode.left,lvl-1));
                 first = Math.min(first,lvl-1);
