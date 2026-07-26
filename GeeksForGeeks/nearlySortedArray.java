@@ -1,0 +1,30 @@
+import java.util.PriorityQueue;
+
+public class nearlySortedArray {
+    public static void print(int[] arr){
+        for(int ele : arr){
+            System.out.print(ele+" ");
+        }
+        System.out.println();
+    }
+    public static void nearlySorted(int[] arr, int k) {
+        // code here
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        int i = 0;
+        for(int ele : arr){
+            pq.add(ele);
+            if(pq.size() > k) arr[i++] = pq.poll();
+        }
+        while(!pq.isEmpty()){
+            arr[i++] = pq.poll();
+        }
+    }
+
+    static void main(String[] args) {
+        int[] arr = {6,5,3,2,8,10,9};
+        print(arr);
+        int k = 3;
+        nearlySorted(arr,k);
+        print(arr);
+    }
+}

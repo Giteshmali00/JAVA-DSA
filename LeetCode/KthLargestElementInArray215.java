@@ -1,4 +1,6 @@
 
+import java.lang.reflect.Method;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class KthLargestElementInArray215 {
@@ -11,12 +13,12 @@ public class KthLargestElementInArray215 {
         System.out.println();
     }
 
+    //Method 1 :
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
     public static int partition(int[] arr, int lo, int hi) {
         int mid = (hi + lo) / 2;
         int pivot = arr[mid];
@@ -45,7 +47,6 @@ public class KthLargestElementInArray215 {
 
         return cidx;
     }
-
     public static void quickSelect(int[] arr, int lo, int hi, int k) {
         if (lo > hi)
             return;
@@ -59,7 +60,15 @@ public class KthLargestElementInArray215 {
         else
             quickSelect(arr, pindex + 1, hi, k);
     }
-
+    //Method 2 : Using PriorityQueue/Heap
+    public static int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for(int ele : nums){
+            pq.add(ele);
+            if(pq.size()>k) pq.poll();
+        }
+        return pq.peek();
+    }
     public static void main(String[] args) {
         int[] arr = { 2, 7, 4, 3, 5, 1, 8, 6 };
         int n = arr.length;
@@ -69,6 +78,7 @@ public class KthLargestElementInArray215 {
         sc.close();
         ans = -1;
         quickSelect(arr, 0, n - 1, n - k + 1);
-        System.out.println(ans);
+        System.out.println("Method 1 : "+ans);
+        System.out.println("Method 2 : "+findKthLargest(arr,k));
     }
 }
