@@ -1,6 +1,6 @@
 import java.util.PriorityQueue;
 
-public class sortaKsortedArray {
+public class nearlySortedArray {
     public static void print(int[] arr){
         for(int ele : arr){
             System.out.print(ele+" ");

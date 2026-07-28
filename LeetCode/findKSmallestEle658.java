@@ -1,8 +1,41 @@
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
+import java.util.PriorityQueue;
 
 public class findKSmallestEle658 {
+    public static class Pair implements Comparable<Pair>{
+        int d;
+        int ele;
+        Pair(int d, int ele){
+            this.d = d;
+            this.ele = ele;
+        }
+
+        public int compareTo(Pair p){
+            if(this.d==p.d)
+                return this.ele - p.ele;
+            return this.d - p.d;
+        }
+    }
+    public static List<Integer> findClosestElements2(int[] arr, int k, int x) {
+        PriorityQueue<Pair> pq = new PriorityQueue<>(Collections.reverseOrder());
+        for(int i = 0; i < arr.length; i++){
+            int d = Math.abs(x - arr[i]);
+            pq.add(new Pair(d,arr[i]));
+            if(pq.size()>k) pq.remove();
+        }
+
+        List<Integer> ans = new ArrayList<>();
+        while(!pq.isEmpty()){
+            ans.add(pq.poll().ele);
+        }
+        Collections.sort(ans);
+        return ans;
+    }
+
+    //Method 1 :
     public static ArrayList<Integer> findClosestElement(int[] arr, int k, int x) {
         ArrayList<Integer> arrl = new ArrayList<>();
         int n = arr.length;
@@ -65,8 +98,18 @@ public class findKSmallestEle658 {
 
     public static void main(String[] args) {
         int[] arr = { 0, 1, 1, 1, 2, 3, 6, 7, 8, 9 };
+        print(arr);
         int target = 4;
-        int k = 9;
+        int k = 5;
+        System.out.println("K:"+k);
+        System.out.println("target:"+target);
         System.out.println(findClosestElement(arr, k, target));
+        System.out.println(findClosestElements2(arr,k,target));
+    }
+    public static void print(int[] arr){
+        for(int ele : arr){
+            System.out.print(ele+" ");
+        }
+        System.out.println();
     }
 }
