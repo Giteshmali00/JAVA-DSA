@@ -1,3 +1,5 @@
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class mergeKSortedLL23 {
     //Function for merge Two sorted Lists Helping function for Method 2.
@@ -74,6 +76,23 @@ public class mergeKSortedLL23 {
         }
         return mergeTwoLists(mergeKLists2(left),mergeKLists2(right));
     }//
+    //Method 3 : Using PriorityQueue/MinHeap
+    public static Node mergeKLists3(Node[] lists) {
+        Queue<Node> pq = new PriorityQueue<>((a,b)->a.val-b.val);
+        for(int i = 0; i < lists.length; i++){
+            Node temp = lists[i];
+            if(temp!=null) pq.add(temp);
+        }
+        Node dummy = new Node(-1);
+        Node temp = dummy;
+        while(!pq.isEmpty()){
+            Node t = pq.poll();
+            if(t.next!=null) pq.add(t.next);
+            temp.next = t;
+            temp = temp.next;
+        }
+        return dummy.next;
+    }
     public static void main(String[] args) {
         LinkedList list1 = new LinkedList();
         LinkedList list2 = new LinkedList();
@@ -100,7 +119,10 @@ public class mergeKSortedLL23 {
         // ans.head = mergeKLists(lists);
         // ans.display();
 
-        ans.head = mergeKLists2(lists);
+//        ans.head = mergeKLists2(lists);
+//        ans.display();
+
+        ans.head = mergeKLists3(lists);
         ans.display();
     }
 }
