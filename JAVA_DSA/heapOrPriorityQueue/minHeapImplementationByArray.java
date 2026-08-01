@@ -42,8 +42,8 @@ class MinHeap{
         int lc = parent*2+1, rc = parent*2+2;
         int mindx = parent;
         if(lc < size && heap[lc] < heap[mindx]) mindx = lc;
-        else if(rc < size && heap[rc] < heap[mindx]) mindx = rc;
-        else return;
+        if(rc < size && heap[rc] < heap[mindx]) mindx = rc;
+        if(mindx==parent) return;
         swap(mindx,parent);
         downheapify(mindx);
     }
