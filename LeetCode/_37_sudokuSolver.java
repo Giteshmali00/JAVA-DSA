@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class _37_sudokuSolver {
     public static boolean isValid(char[][] board, int row, int col, char ch){
         //Checking rows and columns
