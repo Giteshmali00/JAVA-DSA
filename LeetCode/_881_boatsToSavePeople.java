@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class _881_boatsToSavePeople {
     public static int numRescueBoats(int[] people, int limit) {
