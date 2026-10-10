@@ -35,6 +35,8 @@ public class minCostToCut {
         System.out.print("y : ");
         print(y);
         System.out.println("Minimum Cost to cut : "+minCost(n,m,x,y));
+
+
     }
 
     private static void print(int[] arr) {
