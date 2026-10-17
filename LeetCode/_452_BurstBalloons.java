@@ -7,7 +7,7 @@ public class _452_BurstBalloons {
         int n = points.length;
         int minEnd = points[0][1];
         for(int i = 1; i < n; i++){
-            if(points[i][0]>points[i-1][1] || minEnd<points[i][0]){
+            if(minEnd<points[i][0]){
                 arrows++;
                 minEnd = points[i][1];
             }
