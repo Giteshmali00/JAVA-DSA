@@ -7,6 +7,16 @@ public class _547_numberOfProvinces {
         print(adj);
         System.out.println("Total number of provinces: "+findCircleNum(adj));
     }
+    //Method 2 : DFS
+    public static void dfs(int[][] adj, boolean[] vis, int nod){
+        vis[nod] = true;
+        for(int i=0; i<adj.length; i++){
+            if(adj[nod][i]==1 && !vis[i]){
+                dfs(adj, vis, i);
+            }
+        }
+    }
+    //Method 1 : BFS
     public static void bfs(int[][] adj, boolean[] vis, int nod){
         Queue<Integer> q = new LinkedList<>();
         q.add(nod);
