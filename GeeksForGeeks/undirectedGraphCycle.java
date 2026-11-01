@@ -12,6 +12,19 @@ public class undirectedGraphCycle {
             this.vertex = vertex;
         }
     }
+    //Method 2:
+    public static boolean dfs(List<List<Integer>> adj, boolean[] visited, int parent, int vertex){
+        visited[vertex] = true;
+        for(int ele : adj.get(vertex)){
+            if(!visited[ele]){
+                if(dfs(adj, visited, vertex, ele)){
+                    return true;
+                }
+            }else if(ele!=parent) return true;
+        }
+        return false;
+    }
+    //Method 1:
     public static boolean bfs(List<List<Integer>> adj, boolean[] visited, int start){
         Queue<Pair> q = new LinkedList<>();
         q.add(new Pair(-1,start));
@@ -41,12 +54,25 @@ public class undirectedGraphCycle {
         return false;
     }
 
+    public static boolean isCycle2(List<List<Integer>> adj) {
+        boolean[] visited = new boolean[adj.size()];
+        for(int i=0; i<adj.size(); i++){
+            if(!visited[i]){
+                if(dfs(adj, visited, -1, i)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     static void main(String[] args) {
         int[][] arr = {{1, 2}, {0, 2}, {0, 1, 3}, {2}};
         List<List<Integer>> adj = new ArrayList<>();
         fillList(arr,adj);
         System.out.println(adj);
-        System.out.println("is Cycle detected? : "+isCycle(adj));
+        System.out.println("is Cycle detected? (bfs) : "+isCycle(adj));
+        System.out.println("is Cycle detected? (dfs) : "+isCycle2(adj));
     }
 
     private static void fillList(int[][] arr, List<List<Integer>> rooms) {
