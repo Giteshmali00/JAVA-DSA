@@ -4,6 +4,36 @@ import java.util.Queue;
 import java.util.LinkedList;
 
 public class _207_courseSchedule {
+    //Method 2:
+    public static boolean dfs(List<List<Integer>> adj, boolean[] vis, boolean[] visPath, int vertex){
+        vis[vertex] = true;
+        visPath[vertex] = true;
+        for(int ele : adj.get(vertex)){
+            if(!vis[ele]){
+                if(dfs(adj,vis,visPath,ele)) return true;
+            }else if(visPath[ele]) return true;
+        }
+        visPath[vertex] = false;
+        return false;
+    }
+    public static boolean canFinish2(int n, int[][] prerq) {
+        List<List<Integer>> adj = new ArrayList<>();
+        for(int i=0; i<n; i++){
+            adj.add(new ArrayList<>());
+        }
+        for(int[] edge : prerq){
+            adj.get(edge[1]).add(edge[0]);
+        }
+        boolean[] vis = new boolean[n];
+        boolean[] visPath = new boolean[n];
+        for(int i=0; i<n; i++){
+            if(dfs(adj,vis,visPath,i)){
+                return false;
+            }
+        }
+        return true;
+    }
+    //Method 1:
     //Kahn's algorithm
     public static boolean bfs(List<List<Integer>> adj, int[] inDegree){
         int n = adj.size();
@@ -45,7 +75,7 @@ public class _207_courseSchedule {
         System.out.println("N : "+n);
         System.out.print("Prerequisites : ");
         print(prereq);
-        System.out.println("You Finished all courses? : "+canFinish(n, prereq));
+        System.out.println("You Finished all courses? : "+canFinish2(n, prereq));
     }
 
     private static void print(int[][] prereq) {
